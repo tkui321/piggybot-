@@ -25,7 +25,7 @@ client.on("message", (message) => {
   } else
   if (message.content === (prefix + "help")) {
     message.author.sendMessage({embed: {
-      color: 3447003,
+      color: 0xffff00,
       title: "__:הפקודות של בננה סרבר__\n \n",
       description: "** **\n**/ping** - מראה לך כמה פינג יש לך\n**/discord** - הקישור לדיסקורד\n**/test** - מראה לך אם הבוטית פועלת\n**/roles** - מראה לך את הרולים של הסרבר\n**/staff** - מראה לך איזה אנשים נמצאים בצוות שלנו\n**/help** - מראה לך את התפריט הזה",
       footer: 
