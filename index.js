@@ -33,9 +33,9 @@ client.on("message", (message) => {
           text: "Banana Server"
       }
     }});
-    message.reply(":mailbox_with_no_mail: תבדוק את ההודעות הפרטיות שלך");
-  }
-});
+     message.reply(":mailbox_with_no_mail: תבדוק את ההודעות הפרטיות שלך");
+   }
+ });
 
 client.on('message', msg => {
   if (msg.content === '/ping') {
