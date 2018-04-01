@@ -34,6 +34,18 @@ client.on("message", (message) => {
       }
     }});
      message.reply(":mailbox_with_no_mail: תבדוק את ההודעות הפרטיות שלך");
+  } else
+  if (message.content === (prefix + "roles")) {
+    message.author.sendMessage({embed: {
+      color: 3447003,
+      title: "__:הרולים של בננה סרבר__\n \n",
+      description: "** **\n**Banana [B]**\n**OWNER [O]**\n**CO [C]**\n**ADMIN+ [A+]**\n**ADMIN [A]**\n**MOD [M]**\n**Helper [H]**\n**Friend [F]**\n**Mvp+**\n**Mvp**\n**Vip+**\n**Vip**\n**Bot [B]**\n**משהו מגנב XD**\n**YouTuber**\n**Member**\n**Muted**\n**Minecraft Player**\n**CS-GO Player**\n**Fortnite Player**\n**PUBG Player**\n**OverWatch Player**\n**צריך גישות ליצור חדרים**\n**Staff**\n**צריך לתכנת משהו**",
+      footer: 
+      {
+          text: "Banana Server"
+      }
+    }});
+     message.reply(":mailbox_with_no_mail: תבדוק את ההודעות הפרטיות שלך");
    }
  });
 
