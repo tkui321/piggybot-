@@ -45,6 +45,7 @@ client.on("message", (message) => {
           text: "Banana Server"
       }
     }});
+     message.reply(":mailbox_with_no_mail: תבדוק את ההודעות הפרטיות שלך");
   } else
   if (message.content === (prefix + "roles")) {
     message.author.sendMessage({embed: {
