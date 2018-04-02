@@ -68,7 +68,7 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '/test') {
+  if (msg.content === 'test') {
     msg.reply(`אני מחוברת`)
   }
 });
