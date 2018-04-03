@@ -69,7 +69,7 @@ client.on('message', msg => {
 
 client.on('message', message => {
   if (message.content === 'test') {
-    message.reply("'/help' אני מחוברת, כדאי להתחיל תרשום");
+    message.reply("`/help` אני מחוברת, כדאי להתחיל תרשום");
   }
 });
 
