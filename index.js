@@ -67,10 +67,10 @@ client.on('message', msg => {
   }
 });
 
-client.on('message', msg => {
-  if (msg.content === 'test') {
-    msg.reply(`אני מחוברת`)
-  }
-});
+  client.on('message', message => {
+    if (message.content === 'test') {
+      message.reply("I am Online, for start type /help");
+    }
+  });
 
 client.login(process.env.BOT_TOKEN);
